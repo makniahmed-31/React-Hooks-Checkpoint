@@ -1,0 +1,85 @@
+.App{
+  text-align: center;
+}
+.container-movielist{
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.list{
+  width: 25%;
+  height: 550px;
+  border: solid black 2px;
+  margin: 10px;
+  padding: 5px;
+}
+.poster{
+  height: 300px;
+  width: 200px;
+}
+.title{
+  font-size: x-large;
+  color: red;
+  background: white;
+}
+.title:hover{
+  color:white;
+  background: red;
+  border-radius: 40px;
+}
+.Fi{
+  font-size: 30px;
+  color: red;
+}
+.filter{
+  width: 70%;
+  height: 30px;
+  text-align: center;
+  border-radius: 40px;
+  background: black;
+  border: white 2px solid;
+  color: white;
+  font-family: Apple Chancery, cursive;
+}
+.btn-add,.btn-cancel,.btn-add-new{
+  background: black;
+  color:yellow;
+  height: 20px;
+}
+.btn-add:hover,.btn-cancel:hover,.btn-add-new:hover{
+  background: yellow;
+  color:black;
+  height: 20px;
+}
+.pop-down{
+  display: none;
+}
+.pop-up{
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  width: 100vw;
+  height: 85vh;
+  background: rgba(0, 0, 0, 0.904);
+  top: 85px;
+  
+}
+.btn-cancel,.btn-add-new{
+width: 100px;
+margin: 0 auto;
+
+}
+.add-new-film{
+  width: 60%;
+  height: 30px;
+  text-align: center;
+  margin: 30px auto;
+  font-family: Apple Chancery, cursive;
+}
+*:focus {
+  outline: none;
+}
