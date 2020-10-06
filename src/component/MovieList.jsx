@@ -5,8 +5,9 @@ const MovieList = (props) => {
     var movielist=props.movielist;
 
 
-    const Stars =[];
+    
     const rateFn=(x)=>{
+        let Stars =[];
         for (let i = 0; i < x; i++) {
             
             Stars.push(<FiStar className='fi' key={Math.floor(Math.random() * 1000000)} color='red' fill='yellow'/>)
